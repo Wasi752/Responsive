@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-
+import Time from "./Time";
 
 function Header (){
     return (
@@ -24,7 +24,7 @@ function Header (){
                                 </div>
                         </div>
                         <div className="hidden md:block md:flex m-2 ">
-                                <div className="flex w-6/12">শনিবার, ১০ সেপ্টেম্বর ২০২২</div>
+                                <div className="flex w-6/12">শনিবার, ১০ সেপ্টেম্বর ২০২২<Time/></div>
                                 <div class="w-5/12 h-full text-md text-right">English Edition</div>
                     
 
